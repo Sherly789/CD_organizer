@@ -1,0 +1,11 @@
+<h1>List of CD</h1>
+
+@*
+@foreach(var cd in Model) {
+  <h3>@cd.GetTitle()</h3>
+}
+*@
+
+<p>
+  @Model.GetTitle()
+</p>
